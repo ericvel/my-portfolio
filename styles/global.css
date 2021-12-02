@@ -8,4 +8,24 @@
   body {
     @apply font-maven-pro;
   }
+
+  h1 {
+    @apply text-5xl font-semibold;
+  }
+  h2 {
+    @apply text-4xl;
+  }
+  h3 {
+    @apply text-3xl;
+  }
+
+  p {
+    @apply text-base;
+  }
+}
+
+@layer utilities {
+  .nav-item {
+    @apply font-bold hover:text-gray-400;
+  }
 }
